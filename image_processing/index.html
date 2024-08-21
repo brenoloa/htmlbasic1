@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens</title>
+</head>
+<body>
+    <h1>teste de imagem dinamica.</h1>
+    <p>900x900 // 600x600 // 300x300</p>
+    <hr>
+    <picture>
+        <source media="(max-width: 630px)" srcset="300x300.png" type="image/png">
+        <source media="(max-width: 930px)" srcset="600x600.png" type="image/png">
+        <img src="900x900.png" alt="">
+    </picture>
+</body>
+</html>
